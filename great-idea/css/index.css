@@ -75,6 +75,7 @@ h2 {
 }
 
 .upper-nav-bar {
+  padding-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,8 +139,73 @@ footer h2 {
   padding-top: 30px;
 }
 
-footer p {
+footer p:last-child {
   padding: 30px;
   text-align: center;
   font-size: 14px;
+}
+
+.services-upper-content img {
+  padding-top: 20px;
+}
+
+.services-upper-content h2 {
+  font-size: 20pt;
+}
+
+.services-upper-content .services-services {
+  border-bottom: 1px solid black;
+  padding: 35px 0;
+}
+
+.services-page .main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-evenly; 
+  border-bottom: 2px solid black;
+  height: 915px;
+}
+
+.services-page .main-content section {
+  padding: 20px;
+  border: 1px solid black;
+  background-color: lightgrey;
+  width: 46%;
+  height: 28%;
+}
+
+.services-page .main-content section button {
+  border: 1px solid black;
+  border-radius: 5%;
+  width: 130px;
+  height: 35px;
+  margin-top: 20px;
+}
+
+.services-page .main-content section p {
+  line-height: 1.25;
+}
+
+footer .upper-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .upper-footer .facts {
+  width: 46%;
+}
+
+footer .upper-footer .footer-image {
+  padding-top: 40px;
+}
+
+footer .upper-footer .facts ul {
+  list-style: square outside none;
+  padding: 20px;
+}
+
+
+footer .upper-footer .facts ul li {
+  padding: 5px;
 }
